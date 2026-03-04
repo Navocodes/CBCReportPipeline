@@ -1,0 +1,28 @@
+# Core NLP
+spacy==3.8.7
+#en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
+
+# PDF and OCR
+pdf2image==1.16.3
+pytesseract==0.3.10
+Pillow==10.2.0
+
+# PDF text extraction fallback (for digital reports)
+pdfminer.six==20221105
+
+# Date parsing
+python-dateutil==2.9.0.post0
+
+# FHIR JSON conversion
+uuid==1.30
+tqdm==4.67.1
+
+# Visualization & Data Analysis
+pandas
+matplotlib
+
+# Optional but recommended for layout-aware preprocessing (future)
+pdfplumber==0.10.2
+
+# MacOS-specific dependency (image backend for pdf2image)
+pyobjc==10.1
